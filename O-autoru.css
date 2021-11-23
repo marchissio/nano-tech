@@ -1,0 +1,39 @@
+#slika {
+    width: 400px;
+    float: left;
+}
+
+#slika img {
+    width: 300px;
+    border-radius: 20%;
+    
+}
+#biografija {
+    width: 600px;
+    float: left;
+    text-align: right;
+}
+#biografija p {
+    text-align: justify;
+    font-size: 20px;
+    word-spacing: 0px;
+    line-height: 30px;
+    text-indent: 10px;
+    border: 1px solid #209CE9;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+#sredina .container h1 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: #209CE9;
+    font-weight: bold;
+}
+.plava  {
+    color: #209CE9;
+    font-weight: bold;
+}
+.active-page {
+    border-bottom: 2px solid #209CE9;
+  }

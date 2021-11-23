@@ -1,0 +1,21 @@
+#sredina .container h1 {
+    margin-top: 50px;
+    margin-bottom: 19px;
+    color: #209CE9;
+    font-weight: bold;
+}
+
+.container p {
+    font-size: 20px;
+}
+.container h2 {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    color: #209CE9;
+}
+.p1{
+    margin-bottom: 30px;
+}
+.active-page {
+    border-bottom: 2px solid #209CE9;
+  }

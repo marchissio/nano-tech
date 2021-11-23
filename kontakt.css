@@ -1,0 +1,86 @@
+#kontakt {
+    width: 600px;
+    display: block;
+    float: left;
+   
+}
+label, input {
+    display: block;
+}
+
+#sredina .container h1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #209CE9;
+    font-weight: bold;
+}
+#sredina .container h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#podnaslov1 {
+    float: left;
+    margin-right: 530px;
+}
+#podnaslov2 {
+    font-size: 20px;
+}
+
+.form-row {
+    margin-bottom: 20px;
+}
+.form-row-1 .form-column {
+    width: 90%;
+}
+.form-row-1 .form-column input, .form-row-3 textarea {
+    width: 80%;
+    border: 1px solid #93bcd6;
+    border-radius: 5px;
+    padding: 10px 0px 10px 5px;
+    margin-top: 7px;
+}
+.column-2 {
+    margin-top: 15px;
+}
+
+.form-row-2 input {
+    margin-right: 3px;
+}
+.form-row-2 label {
+    margin-right: 15px;
+    
+}
+.form-row-3 textarea {
+    width: 65%;
+    padding: 30px;
+}
+
+.form-row-5 input {
+    border: none;
+    background: #209CE9;
+    padding: 13px 18px;
+    font-size: 15px;
+    border-radius: 10px;
+    color: #fff;
+    transition: color 0.3s;
+}
+.form-row-5 input:hover {
+    background-color: #36affa;
+    cursor: pointer;
+}
+#kontakt-info {
+    float: right;
+    width: 570px;
+    margin-left: 0px;
+}
+.ikonice {
+    color: #209CE9;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+#informacije {
+    margin-bottom: 10px;
+}
+.active-page {
+    border-bottom: 2px solid #209CE9;
+  }

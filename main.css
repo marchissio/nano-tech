@@ -1,0 +1,248 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+body {
+    font-family: 'Recursive', sans-serif;
+}
+#header {
+    position: relative;
+    background-color: rgb(231, 229, 229);
+    width: 100%;
+    padding: 50px 0px;
+}
+.container {
+    width: 1200px;
+    margin: 0px auto;
+}
+#logo {
+    width: 400px;
+    float: left;
+}
+#logo img {
+    width: 120px;
+    height: inherit;
+}
+#meni {
+    width: 700px;
+    float: right;
+    text-align: right;
+    
+}
+#meni ul li {
+    display: inline-block;
+    margin-left: 12px;
+}
+#meni ul li a {
+    color: rgb(25, 26, 27);
+    font-size: 18px;
+    transition: color 0.5s;
+    font-weight: bold;
+}
+#meni ul .active a {
+    color: #209CE9;
+    font-weight: bold;
+}
+#meni ul .active a:hover {
+    color: rgb(25, 26, 27);
+    font-weight: bold;
+}
+#meni ul li a:hover {
+    border-bottom: 2px solid #209CE9;
+}
+#meni ul li i {
+    position: absolute;
+    top: 37px;
+    right: 310px;
+
+    color: #209CE9;
+    font-size: 37px;
+    transition: 0.3;
+}
+#meni ul li i:hover {
+    color: #36affa;
+}
+/*#sredina {
+    width: 100%;
+    height: 40px;
+    background-color: #209CE9;
+}*/
+.heading {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+#sredina {
+    width: 100%;
+    height: 90vh;
+    background: url('img/bck.jpg'); 
+
+}
+
+#info {
+    width: 100%;
+    height: 250px;
+}
+#footer {
+    width: 100%; 
+    background-color: #209ce9bb;
+    padding: 40px 0px;
+}
+#copyright {
+    width: 380px;
+    float: left;
+}
+#author {
+    width: 380px;
+    float: left;
+    
+}
+#author p {
+    text-align: center;
+}
+#author p a {
+    color: rgb(0, 0, 0);
+    font-family: 'Comfortaa', cursive;
+    color: #000
+}
+.margin-rl {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#social {
+    width: 380px;
+    float: right;
+    text-align: right;
+}
+#social ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+#social ul li a {
+    font-size: 20px;
+    color: rgb(45, 49, 54);
+    transition: color 0.3s;
+}
+#social ul li a:hover{
+    color: rgb(231, 229, 229);
+}
+#slogan {
+    width: 800px;
+    position: relative;
+    top: 260px;
+    /*border: 1px solid #209CE9;*/
+}
+#slogan h1 {
+    padding: 20px 20px 5px 0px;
+}
+#slogan h3 {
+    /*margin-left: 20px;*/
+    font-style: italic;
+    padding-bottom: 10px;
+    color: gray;
+    transition: color 2s;
+}
+#slogan h3:hover {
+    color: #209CE9;
+}
+
+.button a{
+    position: relative;
+    top: 300px;
+    font-size: 18px;
+    background-color: #209CE9;
+    color: #fff;
+    border: 1px solid #209CE9;
+    padding: 20px;
+    border-radius: 10px;
+    transition: color 0.4s
+}
+.button a:hover {
+    background-color: #fff;
+    color: #209CE9;
+    font-weight: bold;
+}
+/*Artikli*/
+
+.artikl {
+    height: 290px;
+    width:  277,5px;
+    float: left;
+    background-color: #fff;
+    margin-bottom: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+}
+#sekcija1 .container h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #209CE9;
+}
+#sekcija1 .container h3 {
+    margin-bottom: 20px;
+}
+.artikl img {
+    width: 270px;
+   
+}
+.artikl p {
+    color: rgb(48, 47, 47);
+    margin-top: 10px;
+    font-weight: 600;
+}
+.artikl-blok-1 {
+    width: 100%;
+    height: 400px; 
+    padding: 20px 0 20px 0;
+    background-color: rgb(231, 229, 229);
+}
+.artikl-blok-1 .container h2 {
+    margin-bottom: 40px;
+    color: #209CE9;
+    
+}
+.margin-l {
+    margin-left: 30px;
+}
+.box-shadow {
+    width: 277,5px;
+    height: 290px;
+    border: 1px solid #fcfbfb;
+    transition: 0.3s
+}
+.box-shadow:hover {
+    box-shadow: 0 0 3px 3px rgba(0,0,0,0.35);
+}
+
+/*Ikonice*/
+
+.blok {
+    width: 380px;
+    float: left;
+    margin-top: 40px;
+    
+}
+.icon {
+    font-size: 100px;
+    display: block;
+    color: #209CE9;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.blok p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+#banner img {
+    width: 100%;
+    height: 200px;
+}
